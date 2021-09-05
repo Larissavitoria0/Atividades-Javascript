@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Wireframe</title>
+ 
+</head>
+<body>
+
+<div>
+    <h1>Fintech Paçoca</h1>
+</div>
+
+<div>
+    <h2>Simulador</h2>
+</div>
+
+<form>
+   <table cellpadding='10' width='200'>
+   <tr>
+        <td> <label>Nome</label></td>
+        <td> <input type="text" placeholder="Nome"/>
+        </td>
+        </tr>
+     
+        <tr>
+         <td>
+              <label>Mensalidade</label>
+         </td>
+         <td>
+              <select>
+                  <option>20,00</option>
+              </select>
+         </td>
+         </tr>
+
+         <tr>
+         <td>
+              <label>Tempo</label>
+        </td>
+        <td>
+             <select>
+                 <option>1 ano</option>
+             </select>
+            </td>
+
+   </tr>
+</table>
+
+</form>
+<script>
+    function texto() {
+      ('Olá Tobias,Juntando R$20,00 todo mês, você terá R$509,65 em 2 anos');
+    }
+    function texto() {
+      alert('Olá Tobias,Juntando R$20,00 todo mês, você terá R$509,65 em 2 anos');
+    }
+    </script>
+    <button id="btn" onclick="confirm('Confirmar?',texto());">Simular</button>
+
+    
+</body>
+</html>
